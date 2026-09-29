@@ -1,0 +1,20 @@
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.2
+pydantic-settings==2.2.1
+sqlalchemy==2.0.30
+asyncpg==0.29.0
+alembic==1.13.1
+psycopg2-binary==2.9.9
+pgvector==0.2.5
+python-dotenv==1.0.1
+redis==5.0.4
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+python-multipart==0.0.9
+pypdf==4.2.0
+openai>=2.50,<3
+
+# The backend only needs the LiveKit Python SDK for token generation.
+# The voice agent runtime itself uses the agent/requirements.txt set.
+livekit>=1.1.18

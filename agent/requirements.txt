@@ -1,0 +1,11 @@
+# Keep this environment separate from the API process: local model inference is heavy.
+livekit-agents>=1.8,<2
+livekit-plugins-openai>=1.8,<2
+livekit-plugins-google>=1.8,<2
+livekit-plugins-silero>=1.8,<2
+faster-whisper>=1.2,<2
+edge-tts>=7.2,<8
+transformers>=4.48,<5
+peft>=0.14,<1
+accelerate>=1.2,<2
+torch>=2.5,<3
